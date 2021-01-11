@@ -35,12 +35,11 @@ h2 {
 
 h1 {
   margin: 0 0 1.5rem;
-  font-size: 1.5rem;
 }
 
 h2 {
   margin: 0 0 1.5rem;
-  font-size: 1.125rem;
+  font-size: 1.5rem;
 }
 
 main {
@@ -76,7 +75,13 @@ li a {
   margin-top: 1.5rem;
   padding: .5em .75em .6em;
   background-color: #623b0c;
-  color: #ede3db;
+  color: #f5f2f0;
   text-decoration: none;
   border-radius: 8px;
+}
+
+li a:hover,
+li a:focus {
+  background-color: #000;
+  color: #fff;
 }
